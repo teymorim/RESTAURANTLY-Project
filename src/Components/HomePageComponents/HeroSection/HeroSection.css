@@ -1,0 +1,96 @@
+.HeroSectionContainer .heroBtns button {
+    background-color: inherit !important;
+    margin: 0 5px;
+    border: none !important;
+    outline: 2px solid rgba(205, 164, 94);
+    transition: all 0.5s ease-in-out;
+}
+.HeroSectionContainer .heroBtns button:hover{
+    background-color: rgba(205, 164, 94) !important;
+    cursor: pointer;
+}
+
+.HeroSectionContainer .play-btn-box {
+    border: 2px rgba(205, 164, 94, 0.11) solid;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .HeroSectionContainer .play-btn-line1 {
+    border: 2px rgba(205, 164, 94, 0.451) solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-color: transparent;
+  }
+  .HeroSectionContainer .play-btn-line2 {
+    border: 2px rgba(205, 164, 94, 0.451) solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-color: transparent;
+  }
+  .HeroSectionContainer .play-button {
+    background-color: rgb(205, 164, 94);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  .HeroSectionContainer .play-button .fas {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    font-size: 30px;
+  }
+  
+  .HeroSectionContainer #line1 {
+    animation: rotation 4s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  .HeroSectionContainer #line2 {
+    animation: rotation1 3s infinite linear;
+  }
+  
+  @keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .HeroSectionContainer .iconPlay{
+        display: none;
+    }
+  }

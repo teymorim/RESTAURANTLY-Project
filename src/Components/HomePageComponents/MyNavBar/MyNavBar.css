@@ -1,0 +1,49 @@
+
+.MyNavBarContainer .navbar{
+    background-color: rgb(0, 0, 0 ,0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.MyNavBarContainer .navbar button{
+    background-color: inherit !important;
+    border: none !important;
+}
+.MyNavBarContainer .nav-link{
+    color: #fff;
+    margin: 0 8px;
+}
+.MyNavBarContainer .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+.MyNavBarContainer .dropdown-toggle[aria-expanded = true]{
+    color: #CDA45E !important;
+}
+.MyNavBarContainer .active{
+    color: #CDA45E !important;
+}
+.MyNavBarContainer .nav-link:hover{
+    color: #CDA45E;
+}
+.MyNavBarContainer .btnNavBar{
+    outline: 2px solid #CDA45E !important;
+    transition: all 0.3s ease-in-out;
+}
+.MyNavBarContainer .btnNavBar:hover{
+    background-color: #CDA45E !important;
+    cursor: pointer;
+}
+.MyNavBarContainer .navbar-toggler-icon{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #CDA45E !important;
+    padding: 0 10px !important;
+    color: #CDA45E !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .MyNavBarContainer .container .btnNavBar{
+        display: none !important;
+    }
+}

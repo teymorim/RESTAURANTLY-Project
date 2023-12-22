@@ -1,0 +1,28 @@
+.SpecialContianer .SpesialListTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-right: 2px solid #CDA45E ;  
+}
+.SpecialContianer .SpesialListTitle button{
+    background-color: inherit !important;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    text-align: start;
+    transition: all 0.3s ease-in-out;
+}
+.SpecialContianer .SpesialListTitle button:hover{
+    color: #CDA45E;
+}
+.SpecialContianer .SpesialListTitle .activebtn{
+    background: #CDA45E !important ;
+}
+
+@media screen and (max-width : 992px ) {
+    .SpecialContianer .SpesialListTitle{
+        border-right: none;
+        border-bottom:  2px solid rgb(205, 164, 94 , 0.3) ;  ;
+    }
+}

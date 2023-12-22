@@ -1,0 +1,11 @@
+.WhyUsContainer{
+    background-color: rgba(40, 39, 39, 0.2);
+    padding: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.WhyUsContainer:hover{
+    background-color: #CDA45E;
+}
+.WhyUsContainer:hover .number{
+    color: #fff;
+}

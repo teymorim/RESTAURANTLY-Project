@@ -1,0 +1,22 @@
+.ContactItem{
+    width: 100%;
+}
+.ContactIcon p{
+    background-color: #CDA45E;
+    padding: 10px;
+    border-radius: 50%;
+}
+.ContactUsSectionContainer button{ 
+ background-color: #000 !important;
+ border: none !important;
+ outline: 1px solid #CDA45E ;
+ color: #CDA45E !important;
+ transition: all 0.3s ease-in-out;
+}
+.ContactUsSectionContainer button:hover{
+    background-color: #CDA45E !important;
+    color: #ffffff !important;
+}
+.ContactUsSectionContainer .form-control:focus{
+    box-shadow: none !important;
+}

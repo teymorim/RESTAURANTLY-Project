@@ -1,0 +1,12 @@
+.MenuItemsContianer img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline:  3px solid rgb(205, 164, 94 );
+}
+
+.MenuItemsContianer .MenuItemsDescription .MenuTitle{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}

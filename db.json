@@ -1,0 +1,271 @@
+{ 
+    "allMenu" : [
+        {
+            "id" : 1 ,
+            "food" : "Lobster Bisque" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg" ,
+            "price" : 5.95
+        } ,
+        {
+            "id" : 2 ,
+            "food" : "Bread Barrel" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/bread-barrel.jpg" ,
+            "price" : 6.95
+        } ,
+        {
+            "id" : 3 ,
+            "food" : "Caesar Selections" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/caesar.jpg" ,
+            "price" : 8.95
+        } ,
+        {
+            "id" : 4 ,
+            "food" : "Mozzarella Stick" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/mozzarella.jpg" ,
+            "price" : 4.95
+        } ,
+        {
+            "id" : 5 ,
+            "food" : "Spniach Salad" ,
+            "description" : "Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/spinach-salad.jpg" ,
+            "price" : 9.95
+        } ,
+        {
+            "id" : 6 ,
+            "food" : "Crab Cake" ,
+            "description" : "A delicate crab cake served on a toasted roll with lettuce and tartar sauce" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/cake.jpg" ,
+            "price" : 7.95
+        } ,
+        {
+            "id" : 7 ,
+            "food" : "Tuscan Grilled" ,
+            "description" : "Grilled chicken with provolone, artichoke hearts, and roasted red pesto" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/tuscan-grilled.jpg" ,
+            "price" : 5.95
+        } ,
+        {
+            "id" : 8 ,
+            "food" : "Greek Salad" ,
+            "description" : "Fresh spinach, crisp romaine, tomatoes, and Greek olives" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/greek-salad.jpg" ,
+            "price" : 9.95
+        } ,
+        {
+            "id" : 9 ,
+            "food" : "Lobster Roller" ,
+            "description" : "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-roll.jpg" ,
+            "price" : 12.95
+        } 
+
+    ] ,
+    "saladMenu" : [
+        
+        {
+            "id" : 1 ,
+            "food" : "Caesar Selections" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/caesar.jpg" ,
+            "price" : 8.95
+        } ,
+        
+        {
+            "id" : 2 ,
+            "food" : "Spniach Salad" ,
+            "description" : "Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/spinach-salad.jpg" ,
+            "price" : 9.95
+        } ,
+        
+        
+        {
+            "id" : 3 ,
+            "food" : "Greek Salad" ,
+            "description" : "Fresh spinach, crisp romaine, tomatoes, and Greek olives" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/greek-salad.jpg" ,
+            "price" : 9.95
+        } 
+       
+    ] ,
+    "speciallyMenu" : [
+        
+        {
+            "id" : 1 ,
+            "food" : "Bread Barrel" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/bread-barrel.jpg" ,
+            "price" : 6.95
+        } ,
+        {
+            "id" : 2 ,
+            "food" : "Tuscan Grilled" ,
+            "description" : "Grilled chicken with provolone, artichoke hearts, and roasted red pesto" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/tuscan-grilled.jpg" ,
+            "price" : 5.95
+        } ,
+        {
+            "id" : 3 ,
+            "food" : "Lobster Roller" ,
+            "description" : "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-roll.jpg" ,
+            "price" : 12.95
+        } 
+
+    ] ,
+    "startersMenu" : [
+        {
+            "id" : 1 ,
+            "food" : "Lobster Bisque" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg" ,
+            "price" : 5.95
+        } ,
+        {
+            "id" : 2 ,
+            "food" : "Mozzarella Stick" ,
+            "description" : "Lorem, deren, trataro, filede, nerada" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/mozzarella.jpg" ,
+            "price" : 4.95
+        } ,
+        {
+            "id" : 3 ,
+            "food" : "Crab Cake" ,
+            "description" : "A delicate crab cake served on a toasted roll with lettuce and tartar sauce" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/cake.jpg" ,
+            "price" : 7.95
+        } 
+    ] ,
+    "specialItems" : [
+        {
+            "id" : 1 ,
+            "title" : "Architecto ut aperiam autem id" ,
+            "description1" : "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka" ,
+            "description2" : "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-1.png"
+        } ,
+        {
+            "id" : 2 ,
+            "title" : "Et blanditiis nemo veritatis excepturi" ,
+            "description1" : "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka" ,
+            "description2" : "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-2.png"
+        } ,
+        {
+            "id" : 3 ,
+            "title" : "Impedit facilis occaecati odio neque aperiam sit" ,
+            "description1" : "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka" ,
+            "description2" : "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-3.png"
+        } ,
+        {
+            "id" : 4 ,
+            "title" : "Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore" ,
+            "description1" : "Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus" ,
+            "description2" : "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-4.png"
+        } ,
+        {
+            "id" : 5 ,
+            "title" : "Est eveniet ipsam sindera pad rone matrelat sando reda" ,
+            "description1" : "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka" ,
+            "description2" : "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero" ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-5.png"
+        } 
+
+    ] ,
+    "eventitems" : [
+        {
+            "id" : 1 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/event-birthday.jpg" ,
+            "title" : "Birthday Parties" ,
+            "price" : 189 ,
+            "description1" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore" ,
+            "description2" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description3" : " Duis aute irure dolor in reprehenderit in voluptate velit." ,
+            "description4" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description5" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        } ,
+        {
+            "id" : 2 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/event-private.jpg" ,
+            "title" : "Private Parties" ,
+            "price" : 290 ,
+            "description1" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore" ,
+            "description2" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description3" : " Duis aute irure dolor in reprehenderit in voluptate velit." ,
+            "description4" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description5" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        } ,
+        {
+            "id" : 3 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/event-custom.jpg" ,
+            "title" : "Custom Parties" ,
+            "price" : 99 ,
+            "description1" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore" ,
+            "description2" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description3" : " Duis aute irure dolor in reprehenderit in voluptate velit." ,
+            "description4" : " Ullamco laboris nisi ut aliquip ex ea commodo consequat." ,
+            "description5" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        }
+    ] ,
+    "chefs" : [
+        {
+            "id" : 1 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-1.jpg" ,
+            "name" : "William Anderson" ,
+            "skill" : "Cook" 
+        } ,
+        {
+            "id" : 2 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-2.jpg" ,
+            "name" : "Sarah Jhonson" ,
+            "skill" : "Patissier" 
+        } ,
+        {
+            "id" : 3 ,
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-3.jpg" ,
+            "name" : "Walter White" ,
+            "skill" : "Master Chef" 
+        }
+    ] ,
+    "Gallery" : [
+        { 
+            "id" : 1 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-1.jpg"
+        } ,
+        { 
+            "id" : 2 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-2.jpg"
+        } ,
+        { 
+            "id" : 3 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-3.jpg"
+        } ,
+        { 
+            "id" : 4 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-4.jpg"
+        } ,
+        { 
+            "id" : 5 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-5.jpg"
+        } ,
+        { 
+            "id" : 6 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-6.jpg"
+        } ,
+        { 
+            "id" : 7 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-7.jpg"
+        } ,
+        { 
+            "id" : 8 , 
+            "image" : "https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-8.jpg"
+        } 
+    ]
+}

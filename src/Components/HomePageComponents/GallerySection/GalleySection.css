@@ -1,0 +1,15 @@
+.GallerySectionContianer img{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    margin: 1px;
+    outline: 2px solid #CDA45E;
+    border-radius: 10px;
+}
+.GallerySectionContianer .col{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.GallerySectionContianer img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

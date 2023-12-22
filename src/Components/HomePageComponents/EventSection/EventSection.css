@@ -1,0 +1,11 @@
+
+.EventSectionContainer .swiper-pagination-bullet{
+    background-color: #CDA45E;
+    padding: 7px;
+}
+.EventSectionContainer .swiper-pagination-bullet-active{
+    background-color: #CDA45E !important;
+    color: #CDA45E !important;
+    background: #CDA45E !important;
+  
+}

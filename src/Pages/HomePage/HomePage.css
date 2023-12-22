@@ -1,0 +1,27 @@
+.section1{
+    height: 100vh;
+    background-image: url('../../Assests/Images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(0, 0, 0 , 0.5);
+    background-attachment: fixed;
+}
+.section2{
+    background-image: url('../../Assests/Images/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(0, 0, 0 , 0.8);
+    background-attachment: fixed;
+}
+.section3 , .section5 , .section7 , .section9{
+    background-color: #000;
+}
+.section4 , .section6 , .section8{
+    background-color: #140c0c;
+}
+
+
