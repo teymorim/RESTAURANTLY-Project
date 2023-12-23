@@ -1,8 +1,14 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import useGetAxios from '../../../hooks/hookGetAxios/useGetAxios';
+
 import './GalleySection.css'
 function GalleySection(){
-    const data = useGetAxios('http://localhost:5000/gallery')
+        const [data , setData] = useState([])
+        useEffect(()=> {
+            axios.get('https://teymorim.github.io/reastaurantlyApiFake/db.json')
+            .then(response => setData(response.data.Gallery))
+        } ,[])
     return(
         <>
         <div className="GallerySectionContianer py-4">

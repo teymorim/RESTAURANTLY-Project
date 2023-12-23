@@ -1,12 +1,16 @@
 
-import { useState } from 'react';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
-import useGetAxios from '../../../hooks/hookGetAxios/useGetAxios';
 import './SpecialSection.css'
 import SpecialSectionItems from './SpecialSectionItems/SpecialSectionItems';
 function SpecialSection(){
     const [dataShow , setDataShow] = useState('btn1')
-    const data = useGetAxios('http://localhost:5000/specialItems')
+    const [data , setData] = useState([])
+    useEffect(()=> {
+        axios.get('https://teymorim.github.io/reastaurantlyApiFake/db.json')
+        .then(response => setData(response.data.specialItems))
+    } ,[])
 
     
     return(

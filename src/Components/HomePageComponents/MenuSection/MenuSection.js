@@ -1,18 +1,27 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
-import useGetAxios from '../../../hooks/hookGetAxios/useGetAxios';
 import MenuItems from './MenuItems/MenuItems';
 import './MenuSection.css'
 function MenuSection(){
     const [show , setShow] = useState('allMenu')
     const [dataMenu , setDataMenu] = useState([])
     useEffect(() => {
-        axios.get(`http://localhost:5000/${show}`)
-        .then(response => setDataMenu(response.data))
-
+        axios.get('https://teymorim.github.io/reastaurantlyApiFake/db.json')
+        .then(response => 
+          {  
+            if(show == 'allMenu')
+                setDataMenu(response.data.allMenu)
+            else if(show == 'startersMenu')
+                setDataMenu(response.data.startersMenu)
+            else if(show == 'saladMenu') 
+              setDataMenu(response.data.saladMenu)
+            else if(show == 'speciallyMenu')
+                setDataMenu(response.data.speciallyMenu)
+            }
+            )
+        
     } , [show])
-    
     
     return(
         <>

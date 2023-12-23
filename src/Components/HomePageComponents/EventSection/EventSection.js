@@ -3,11 +3,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import useGetAxios from '../../../hooks/hookGetAxios/useGetAxios';
 import EventSectionItems from './EventSectionItems/EventSectionItems';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function EventSection(){
-    const data = useGetAxios('http://localhost:5000/eventitems')
+    const [data , setData] = useState([])
+    useEffect(()=> {
+        axios.get('https://teymorim.github.io/reastaurantlyApiFake/db.json')
+        .then(response => setData(response.data.eventitems))
+    } ,[])
     return(
         <>
         <div className="EventSectionContainer my-2">

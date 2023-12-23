@@ -1,9 +1,16 @@
+import axios from 'axios'
+import { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
-import useGetAxios from '../../../hooks/hookGetAxios/useGetAxios'
+
 import './ChefSection.css'
 import ChefSectionItem from './ChefSectionItem/ChefSectionItem'
 function ChefSection(){
-    const data = useGetAxios('http://localhost:5000/chefs')
+    const [data , setData] = useState([])
+    useEffect(()=> {
+        axios.get('https://teymorim.github.io/reastaurantlyApiFake/db.json')
+        .then(response => setData(response.data.chefs))
+    } ,[])
+  
     return(
         <>
         <div className="ChefSectionContainer py-5">
